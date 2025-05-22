@@ -12,7 +12,7 @@
 # 9. Задача о выводе таблицы умножения:
 # Напишите программу, которая выводит таблицу
 # умножения от 1 до 10.
-
+from itertools import count
 
 # 5 задача
 # fib1 = fib2 = 1
@@ -25,5 +25,29 @@
 # print(fib)
 
 # 6 задача
-for i in range(10 , 0 , -1) :
-    print(i)
+# for i in range(10 , 0 , -1) :
+#     print(i)
+
+# 7 задача
+
+# a = str(input("Введите строку: "))
+# summ = 0
+# for i in range(len(a)) :
+#     if a[i] in ["а" , "е" , "ё" , "и" , "о" , "у" , "э" , "ы" , "я" , "ю"] :
+#         summ += 1
+# print(summ, "Гласных букв")
+
+# 8 задача
+
+# a = str(input("Введите целое число: "))
+# summa = 0
+# for i in range(len(a)) :
+#     summa += int(a[i])
+# print("Сумма цифр равна: ", summa)
+
+# 9 задача
+
+for i in range(1 , 11) :
+    for j in range(1 , 11) :
+        print("%4d" % (i * j), end="")
+    print()
