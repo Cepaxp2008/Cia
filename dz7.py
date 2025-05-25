@@ -15,9 +15,10 @@
 from itertools import count
 
 # 5 задача
-# fib1 = fib2 = 1
-# fib = [0, 1, 1]
-# for i in range(3, 10):
+# fib1 = 0
+# fib2 = 1
+# fib = [0, 1]
+# for i in range(2, 10):
 #     fib_sum = fib1 + fib2
 #     fib1 = fib2
 #     fib2 = fib_sum
@@ -31,9 +32,10 @@ from itertools import count
 # 7 задача
 
 # a = str(input("Введите строку: "))
+# a = a. lower()
 # summ = 0
-# for i in range(len(a)) :
-#     if a[i] in ["а" , "е" , "ё" , "и" , "о" , "у" , "э" , "ы" , "я" , "ю"] :
+# for i in a :
+#     if i in ["а" , "е" , "ё" , "и" , "о" , "у" , "э" , "ы" , "я" , "ю"] :
 #         summ += 1
 # print(summ, "Гласных букв")
 
@@ -47,7 +49,7 @@ from itertools import count
 
 # 9 задача
 
-for i in range(1 , 11) :
-    for j in range(1 , 11) :
-        print("%4d" % (i * j), end="")
-    print()
+# for i in range(1 , 11) :
+#     for j in range(1 , 11) :
+#         print("%4d" % (i * j), end="")
+#     print()
