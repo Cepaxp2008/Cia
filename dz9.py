@@ -2,13 +2,18 @@
 # удаляет из нее все пробелы.
 # 7. Напишите программу, которая принимает строку и
 # выводит на экран самое длинное слово в ней.
+from operator import index
 
 # 6 задача
 
 # a = str(input("Введите строку: ")).replace(" " , "")
 # print(a)
 
-a = str(input("Введите строку: "))
-b = a . split(" ")
-c = max(len(b))
-print(c)
+# a = str(input("Введите строку: "))
+# b = a . split(" ")
+# c = []
+# d = 0
+# for i in b :
+#     c.append(len(i))
+# d = c. index(max(c))
+# print(b[d])
